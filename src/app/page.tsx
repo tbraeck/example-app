@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Box from '@mui/material/Box';
 import { Container } from "@mui/material";
+import ResponsiveAppBar from "./components/ResponsiveAppBar";
 
 export default function Home() {
   return (
     <main>
+      <ResponsiveAppBar/>
       <Container>
         <Box>
           <h1>Several Sausages Sat on Simpson</h1>
